@@ -16,7 +16,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rebeccapurple;
 }
 
 .toggle{
@@ -29,7 +28,6 @@ body{
     position:relative;
     width: 200px;
     height: 200px;
-    background-color: red;
 }
 
 .needle{
@@ -55,3 +53,28 @@ body{
   height: 100px;
   background-color: #e74c3c;
 }
+
+.center-point{
+    background-color: #e74c3c;
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
+.center-point::after{
+    position:absolute;
+    content:"";
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
