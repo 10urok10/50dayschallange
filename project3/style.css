@@ -18,7 +18,7 @@ nav{
     border: 1px solid black;
     box-sizing: border-box;
     transition: ease .4s;
-
+    font-size: 20px;
 }
 
 .options:last-child{
@@ -33,3 +33,7 @@ nav{
     color: red;
 }
 
+.logo{
+    position: absolute;
+    left: 10%;
+}
